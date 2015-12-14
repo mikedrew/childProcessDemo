@@ -22,7 +22,7 @@ child.stdout.on('data',function(d){
 
 child.stderr.on('data',function(d){
 	
-	console.log(d);
+	console.log(d.toString());
 	
 });
 
